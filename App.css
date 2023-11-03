@@ -1,0 +1,54 @@
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+  margin: 10px;
+}
+
+.movie-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.movie-image {
+  max-width: 100%;
+}
+
+.review-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
